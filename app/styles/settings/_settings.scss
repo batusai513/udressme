@@ -1,0 +1,31 @@
+@charset "UTF-8";
+//Colors
+$color-primary: 		#93D5D9; //verde aqua
+$color-primary-shade: 	#16A085;
+$color-primary-sec: 	#65A5A6;
+
+$color-secondary: 		#FF4A49; //rojo sexy
+$color-secondary-dark:  #D33939;
+$color-main: 			#A6A6A6; //textos en su mayoria
+$color-white: 			#fff;
+$color-dark: 			#000;
+
+$color-link: 			$color-white;
+$color-link-hover: 		$color-primary-shade;
+$color-text: 			$color-main;
+
+$global-radius: 		4px;
+
+
+//typography
+
+
+$sansFontFamily:        	"aux-regular", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !default;
+$sansMediumFontFamily:      "aux-medium", "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif !default;
+$sansBoldFontFamily:        "aux-bold", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif !default;
+$sansBlackFontFamily:       "aux-black", "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif !default;
+
+$base-font-size: 		16px;
+$base-line-height: 		6px;
+
+$main-font-size: 		18;

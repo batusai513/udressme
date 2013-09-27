@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.main-header{
+	text-align: center;
+	padding-top: rhythm(2);
+	@media #{$sub-small}{
+		padding-top: rhythm(1);
+	}
+}

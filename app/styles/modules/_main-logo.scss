@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.main-logo{
+	font-size: 1em;
+	margin-bottom: rhythm(4);
+	& > a{
+		@extend %main-sprite;
+		@extend %image-replace;
+		background-position: 0 0;
+		width: 120px;
+		height: 120px;
+	}
+	@media #{$sub-small}{
+		margin-bottom: rhythm(2);
+	}
+}

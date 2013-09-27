@@ -1,0 +1,39 @@
+@charset "UTF-8";
+html,
+body{
+	@media #{$sub-small}{
+		@include adjust-font-size-to(14px);
+	}
+}
+body{
+	color: $color-text;
+	font-family: $sansMediumFontFamily;
+}
+p, li{
+	@include adjust-font-size-to($main-font-size*1px);
+}
+
+a{
+	@include transition(color 0.2s ease-out); // multiple: comma-delimited
+	color: $color-link;
+	text-decoration: none;
+	&:hover{
+		color: $color-link-hover;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong{
+	font-family: $sansBoldFontFamily;
+	font-weight: normal;
+}
+
+.secondary-color{
+	color: $color-secondary;
+}

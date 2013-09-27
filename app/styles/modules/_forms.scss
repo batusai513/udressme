@@ -1,0 +1,30 @@
+@charset "UTF-8";
+input[type="color"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+input[type="url"],
+input[type="text"],
+textarea{
+	@include transition(all 0.2s ease-out);
+	
+	background: $color-secondary-dark;
+	border: none;
+	width: 100%;
+	margin-bottom: rhythm(4);
+	padding: rhythm(1);
+	height: em(46);
+	color: $color-white;
+	border-radius: $global-radius;
+}
+
+textarea{
+	min-height: em(120);
+}
+
+label,
+.label{
+	font-size: em(20);
+	margin-bottom: rhythm(1);
+}

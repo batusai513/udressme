@@ -1,0 +1,147 @@
+@charset "UTF-8";
+.box-container{
+	margin: 0;
+}
+.box{
+	width: 50%;
+	padding-bottom: 50%;
+	list-style-type: none;
+	margin: 0;
+	float: left;
+	position: relative;
+	img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+	@media #{$sub-small}{
+		width: 100%;
+		padding-bottom: 100%;
+	}
+	@media #{$small}{
+		width: 33.333333333333%;
+		padding-bottom: 33.333333333333%;
+	}
+	@media #{$medium}{
+		width: 25%;
+		padding-bottom: 25%;
+	}
+	@media #{$large}{
+		width: 20%;
+		padding-bottom: 20%;
+	}
+	&:hover{
+		.box__content{
+			opacity: 1;
+		}
+	}
+}
+
+.hide-sub-small{
+	@media #{$sub-small}{
+		display: none;
+	}
+}
+.box__inner{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+}
+
+.box__content{
+	position: relative;
+	z-index: 1;
+	padding: rhythm(2);
+	height: 100%;
+	opacity: 0;
+	@include transition(opacity 0.2s linear ); // multiple: comma-delimited
+	-webkit-backface-visibility: hidden;
+}
+
+.box__caption{
+	font-size: em(40, 18);
+	line-height: 1.2;
+}
+
+.box__caption--small-text{
+	font-size: em(35);
+}
+
+.section--brand{
+	background: $color-primary;
+	color: white;
+}
+
+.section--stand{
+	background: $color-secondary;
+	color: white;
+}
+
+.section--stand-dark{
+	background: $color-secondary-dark;
+	color: white;
+}
+
+.box__content--layer{
+	background-color: $color-secondary;
+	background: rgba($color-secondary, 0.9);
+	color: $color-white;
+}
+.box__content--layer-brand{	
+	background-color: $color-primary;
+	background: rgba($color-primary, 0.9);
+}
+
+
+.contact-area{
+
+}
+
+.contact__title{
+	margin-bottom: rhythm(6, 36px);
+	@media #{$sub-small}{
+		margin-bottom: rhythm(2, 36px);
+	}
+}
+
+.contact__text{
+	margin-bottom: rhythm(6);
+	@media #{$sub-small}{
+		margin-bottom: rhythm(2);
+	}
+}
+
+.section-area{
+	padding: em(100, $main-font-size) 0;
+	@media #{$sub-small}{
+		padding: em(20, $main-font-size);
+	}
+}
+
+
+
+.user__title{
+	margin-bottom: rhythm(1);
+}
+
+.user__item{
+	margin-bottom: 0;
+	width: em(180);
+	margin: 0 15px 0;
+}
+
+.circle-image{
+	overflow: hidden;
+	border-radius: 1000px;
+	margin-bottom: rhythm(3);
+	margin-left: auto;
+	margin-right: auto;
+	@include size(em(153, $main-font-size));
+	img{
+		vertical-align: middle;
+	}
+}

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'udressme';
+	src:url('fonts/udressme.eot');
+	src:url('fonts/udressme.eot?#iefix') format('embedded-opentype'),
+		url('fonts/udressme.woff') format('woff'),
+		url('fonts/udressme.ttf') format('truetype'),
+		url('fonts/udressme.svg#udressme') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'aux-regular';
+    src: url('fonts/aux-regular-webfont.eot');
+    src: url('fonts/aux-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aux-regular-webfont.woff') format('woff'),
+         url('fonts/aux-regular-webfont.ttf') format('truetype'),
+         url('fonts/aux-regular-webfont.svg#aaux_proregularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aux-medium';
+    src: url('fonts/aux-medium-webfont.eot');
+    src: url('fonts/aux-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aux-medium-webfont.woff') format('woff'),
+         url('fonts/aux-medium-webfont.ttf') format('truetype'),
+         url('fonts/aux-medium-webfont.svg#aaux_promediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aux-bold';
+    src: url('fonts/aux-bold-webfont.eot');
+    src: url('fonts/aux-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aux-bold-webfont.woff') format('woff'),
+         url('fonts/aux-bold-webfont.ttf') format('truetype'),
+         url('fonts/aux-bold-webfont.svg#aaux_proboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'aux-black';
+    src: url('fonts/aux-black-webfont.eot');
+    src: url('fonts/aux-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aux-black-webfont.woff') format('woff'),
+         url('fonts/aux-black-webfont.ttf') format('truetype'),
+         url('fonts/aux-black-webfont.svg#aaux_problackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
